@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.cubdefi.com/',
+        href: 'https://exchange.btcoin.finance/#/swap?outputCurrency=0x71783d77d6019560770f7ce059a9d7294e1c4c70&inputCurrency=BUSD',
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.cubdefi.com/#/pool',
+        href: 'https://exchange.btcoin.finance/#/pool',
       },
     ],
   },
@@ -30,75 +30,32 @@ const config: MenuEntry[] = [
     icon: 'PoolIcon',
     href: '/dens',
   },
-  // {
-  //   label: 'Pools',
-  //   icon: 'PoolIcon',
-  //   href: '/pools',
-  // },
-  // {
-  //   label: 'Lottery',
-  //   icon: 'TicketIcon',
-  //   href: '/lottery',
-  // },
-  // {
-  //   label: 'NFT',
-  //   icon: 'NftIcon',
-  //   href: '/nft',
-  // },
   {
     label: 'Info',
     icon: 'InfoIcon',
     items: [
       {
+        label: 'GitHub',
+        href: 'https://github.com/drummerpva',
+      },
+      {
         label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/0x50d809c74e0b8e49e7b4c65bb3109abe3ff4c1c1',
+        href: 'https://pancakeswap.info/token/0x71783d77d6019560770f7ce059a9d7294e1c4c70',
       },
       {
-        label: 'CoinGecko (Coming Soon)',
-        href: '#',
+        label: 'Binance Smart Chain (BSC)',
+        href: 'https://bscscan.com/token/0x71783d77d6019560770f7ce059a9d7294e1c4c70',
       },
       {
-        label: 'CoinMarketCap',
-        href: 'https://coinmarketcap.com/currencies/cub-finance/',
+        label: 'Token Info BSC',
+        href: 'https://bscscan.com/address/0xf328c01b7b895fe17e573dbaf739d9c25fcde210',
       },
       {
-        label: 'Roadmap',
-        href: 'https://docs.cubdefi.com/roadmap',
+        label: 'Exchange Swap BUSD x BTCOIN',
+        href: 'https://btcoin.finance/exchange/#/swap?outputCurrency=0x71783d77d6019560770f7ce059a9d7294e1c4c70&inputCurrency=BUSD',
       },
     ],
   },
-  {
-    label: 'More',
-    icon: 'MoreIcon',
-    items: [
-      // {
-      //   label: 'Audit by Hacken',
-      //   href: 'https://www.goosedefi.com/files/hackenAudit.pdf',
-      // },
-      {
-        label: "Github",
-        href: "https://github.com/CubFinance/",
-      },
-      // {
-      //   label: "Docs",
-      //   href: "https://goosedefi.gitbook.io/goose-finance/",
-      // },
-      {
-        label: "Blog",
-        href: "https://leofinance.io/@leofinance",
-      },
-    ],
-  },
-  {
-    label: 'Docs',
-    icon: 'TicketIcon',
-    href: 'https://docs.cubdefi.com/',
-  },
-  // {
-  //   label: 'Audit by Hacken',
-  //   icon: 'AuditIcon',
-  //   href: 'https://www.goosedefi.com/files/hackenAudit.pdf',
-  // },
 ]
 
 export default config

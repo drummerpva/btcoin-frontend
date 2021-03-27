@@ -10,7 +10,7 @@ import TotalValueLockedCard from './components/TotalValueLockedCard'
 import TwitterCard from './components/TwitterCard'
 
 const Hero = styled.div`
-  background-image: url('/images/cub/wide.svg');
+  /* background-image: url('/images/cub/wide.svg'); */
   background-repeat: no-repeat;
   background-position: top center;
   display: flex;
@@ -23,7 +23,7 @@ const Hero = styled.div`
   align-items: center;
 
   ${({ theme }) => theme.mediaQueries.lg} {
-    background-image: url('/images/cub/2logos.png') ,url('/images/cub/wide.svg');
+    /* background-image: url('/images/cub/2logos.png') ; */
     background-position: left center, right center;
     height: 165px;
     padding-top: 0;
@@ -52,17 +52,41 @@ const Cards = styled(BaseLayout)`
     }
   }
 `
+const Background = styled.img`
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0.2;
+  z-index: 0;
+`;
+const StyledExternalLink = styled.a`
+  align-items: center;
+  color: inherit;
+  display: flex;
+  flex: 1;
+  height: 56px;
+  justify-content: center;
+  margin: 0 ${(props) => -props.theme.spacing[4]}px;
+  padding: 0 ${(props) => props.theme.spacing[4]}px;
+  text-decoration: none;
+`;
+
 
 const Home: React.FC = () => {
   const TranslateString = useI18n()
 
   return (
     <Page>
+      {/* <Background src="/images/fundo-btcoin.jpg" /> */}
       <Hero>
-        <Heading as="h1" size="xl" mb="24px" color="secondary">
-          {TranslateString(576, 'Cub Finance')}
-        </Heading>
-        <Text>{TranslateString(578, 'Cub Finance on Binance Smart Chain.')}</Text>
+        <StyledExternalLink href="https://bscscan.com/token/0x71783d77d6019560770f7ce059a9d7294e1c4c70" target="__blank">
+          <Heading as="h1" size="xl" mb="24px" >
+            {TranslateString(576, 'BTCoin Finance')}
+          </Heading>
+        </StyledExternalLink>
+        <Text>{TranslateString(578, 'BTCoin Finance on Binance Smart Chain.')}</Text>
       </Hero>
       <div>
         <Cards>

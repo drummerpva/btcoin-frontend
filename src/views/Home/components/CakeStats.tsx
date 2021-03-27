@@ -37,7 +37,6 @@ const CakeStats = () => {
   if(farms && farms[0]){
     cubPerBlock = new BigNumber(farms[0].cubPerBlock).div(new BigNumber(10).pow(18)).toNumber();
   }
-
   return (
     <StyledCakeStats>
       <CardBody>

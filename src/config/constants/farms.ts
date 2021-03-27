@@ -5,15 +5,15 @@ const farms: FarmConfig[] = [
   {
     pid: 10,
     risk: 3,
-    lpSymbol: 'CUB-BUSD LP',
+    lpSymbol: 'BTCOIN-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0x0EF564D4F8D6C0ffE13348A32e21EFd55e508e84',
+      56: '0xf328c01b7b895fe17e573dbaf739d9c25fcde210',
     },
-    tokenSymbol: 'CUB',
+    tokenSymbol: 'BTCOIN',
     tokenAddresses: {
       97: '',
-      56: '0x50d809c74e0b8e49e7b4c65bb3109abe3ff4c1c1',
+      56: '0x71783d77d6019560770f7ce059a9d7294e1c4c70',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -21,20 +21,20 @@ const farms: FarmConfig[] = [
   {
     pid: 11,
     risk: 3,
-    lpSymbol: 'CUB-BNB LP',
+    lpSymbol: 'BTCOIN-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0xc08C74dC9EF46C6dB122b30c48a659831017DD2E',
+      56: '0xf328c01b7b895fe17e573dbaf739d9c25fcde210',
     },
-    tokenSymbol: 'CUB',
+    tokenSymbol: 'BTCOIN',
     tokenAddresses: {
       97: '',
-      56: '0x50d809c74e0b8e49e7b4c65bb3109abe3ff4c1c1',
+      56: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
   },
-  {
+  /* {
     pid: 9,
     risk: 3,
     lpSymbol: 'bLEO-BNB LP',
@@ -49,7 +49,7 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
-  },
+  }, */
   {
     pid: 0,
     risk: 5,
@@ -214,15 +214,15 @@ const farms: FarmConfig[] = [
     pid: 12,
     risk: 5,
     isTokenOnly: true,
-    lpSymbol: 'CUB',
+    lpSymbol: 'BTCOIN',
     lpAddresses: {
       97: '',
-      56: '0x0EF564D4F8D6C0ffE13348A32e21EFd55e508e84', // CUB-BUSD LP
+      56: '0xf328c01b7b895fe17e573dbaf739d9c25fcde210', // BTCOIN-BUSD LP
     },
-    tokenSymbol: 'CUB',
+    tokenSymbol: 'BTCOIN',
     tokenAddresses: {
       97: '',
-      56: '0x50d809c74e0b8e49e7b4c65bb3109abe3ff4c1c1',
+      56: '0x71783d77d6019560770f7ce059a9d7294e1c4c70',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,

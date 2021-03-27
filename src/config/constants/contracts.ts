@@ -1,7 +1,7 @@
 export default {
   cake: {
-    56: '0x50d809c74e0b8e49e7b4c65bb3109abe3ff4c1c1',
-    666: 'This is CUB token',
+    56: '0x71783d77d6019560770f7ce059a9d7294e1c4c70',
+    666: 'This is BTCOIN token',
     97: '',
   },
   masterChef: {
