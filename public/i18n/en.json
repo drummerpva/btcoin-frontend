@@ -651,7 +651,7 @@
     {
       "data": {
         "stringId": 536,
-        "text": "Total BTCoin Supply"
+        "text": "Circulating BTCoin Supply"
       }
     },
     {
@@ -1222,6 +1222,12 @@
       "data": {
         "stringId": 10003,
         "text": "Announcements"
+      }
+    },
+    {
+      "data": {
+        "stringId": 11001,
+        "text": "Total Minted"
       }
     }
   ],

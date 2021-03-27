@@ -32,10 +32,10 @@ const CakeStats = () => {
   const cakeSupply = getBalanceNumber(circSupply);
   const marketCap = cubPrice.times(circSupply);
 
-  let cubPerBlock = 0;
+  let btCoinPerBlock = 0;
 
   if(farms && farms[0]){
-    cubPerBlock = new BigNumber(farms[0].cubPerBlock).div(new BigNumber(10).pow(18)).toNumber();
+    btCoinPerBlock = new BigNumber(farms[0].cubPerBlock).div(new BigNumber(10).pow(18)).toNumber();
   }
   return (
     <StyledCakeStats>
@@ -44,20 +44,24 @@ const CakeStats = () => {
           {TranslateString(534, 'Cub Stats')}
         </Heading>
         <Row>
-          <Text fontSize="14px">{TranslateString(536, 'Total CUB Supply')}</Text>
-          {cakeSupply && <CardValue fontSize="14px" value={cakeSupply} decimals={0} />}
-        </Row>
-        <Row>
           <Text fontSize="14px">{TranslateString(999, 'Market Cap')}</Text>
           <CardValue fontSize="14px" value={getBalanceNumber(marketCap)} decimals={0} prefix="$" />
         </Row>
         <Row>
-          <Text fontSize="14px">{TranslateString(538, 'Total CUB Burned')}</Text>
+          <Text fontSize="14px">{TranslateString(11001, 'Total Minted')}</Text>
+          {cakeSupply && <CardValue fontSize="14px" value={900000000000} decimals={0} />}
+        </Row>
+        <Row>
+          <Text fontSize="14px">{TranslateString(538, 'Total BTCoin Burned')}</Text>
           <CardValue fontSize="14px" value={getBalanceNumber(burnedBalance)} decimals={0} />
         </Row>
         <Row>
-          <Text fontSize="14px">{TranslateString(540, 'New CUB/block')}</Text>
-          <Text bold fontSize="14px">{cubPerBlock}</Text>
+          <Text fontSize="14px">{TranslateString(536, 'Circulating BTCoin Supply')}</Text>
+          {cakeSupply && <CardValue fontSize="14px" value={cakeSupply} decimals={0} />}
+        </Row>
+        <Row>
+          <Text fontSize="14px">{TranslateString(540, 'New BTCoin/block')}</Text>
+          <Text bold fontSize="14px">{btCoinPerBlock}</Text>
         </Row>
       </CardBody>
     </StyledCakeStats>
