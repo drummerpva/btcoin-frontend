@@ -651,19 +651,19 @@
     {
       "data": {
         "stringId": 536,
-        "text": "Circulating BTCoin Supply"
+        "text": "Circulating Supply"
       }
     },
     {
       "data": {
         "stringId": 538,
-        "text": "Total BTCoin Burned"
+        "text": "Total Burned"
       }
     },
     {
       "data": {
         "stringId": 540,
-        "text": "New BTCoin\/block"
+        "text": "New block"
       }
     },
     {
@@ -753,13 +753,13 @@
     {
       "data": {
         "stringId": 576,
-        "text": "BTCoin Finance"
+        "text": "BTCoin Finance Binance Smart Chain"
       }
     },
     {
       "data": {
         "stringId": 578,
-        "text": "BTCoin on Binance Smart Chain."
+        "text": "Contract: 0x71783d77d6019560770f7ce059a9d7294e1c4c70"
       }
     },
     {
@@ -1203,7 +1203,7 @@
     {
       "data": {
         "stringId": 10000,
-        "text": "Deposit Fee will be used to buyback BTCoin and bLEO"
+        "text": "Deposit Fee will be used to buyback BTCoin"
       }
     },
     {
@@ -1227,7 +1227,7 @@
     {
       "data": {
         "stringId": 11001,
-        "text": "Total Minted"
+        "text": "Total Supply"
       }
     }
   ],

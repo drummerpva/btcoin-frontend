@@ -48,19 +48,19 @@ const CakeStats = () => {
           <CardValue fontSize="14px" value={getBalanceNumber(marketCap)} decimals={0} prefix="$" />
         </Row>
         <Row>
-          <Text fontSize="14px">{TranslateString(11001, 'Total Minted')}</Text>
+          <Text fontSize="14px">{TranslateString(11001, 'Total Supply')}</Text>
           {cakeSupply && <CardValue fontSize="14px" value={900000000000} decimals={0} />}
         </Row>
         <Row>
-          <Text fontSize="14px">{TranslateString(538, 'Total BTCoin Burned')}</Text>
+          <Text fontSize="14px">{TranslateString(538, 'Total Burned')}</Text>
           <CardValue fontSize="14px" value={getBalanceNumber(burnedBalance)} decimals={0} />
         </Row>
         <Row>
-          <Text fontSize="14px">{TranslateString(536, 'Circulating BTCoin Supply')}</Text>
+          <Text fontSize="14px">{TranslateString(536, 'Circulating Supply')}</Text>
           {cakeSupply && <CardValue fontSize="14px" value={cakeSupply} decimals={0} />}
         </Row>
         <Row>
-          <Text fontSize="14px">{TranslateString(540, 'New BTCoin/block')}</Text>
+          <Text fontSize="14px">{TranslateString(540, 'New block')}</Text>
           <Text bold fontSize="14px">{btCoinPerBlock}</Text>
         </Row>
       </CardBody>

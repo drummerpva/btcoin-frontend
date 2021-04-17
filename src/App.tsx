@@ -1,5 +1,5 @@
 import React, { useEffect, Suspense, lazy } from 'react'
-import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom'
+import { BrowserRouter as Router,  Route, Switch } from 'react-router-dom'
 import { useWallet } from '@binance-chain/bsc-use-wallet'
 import { ResetCSS } from '@pancakeswap-libs/uikit'
 import BigNumber from 'bignumber.js'
@@ -11,6 +11,7 @@ import NftGlobalNotification from './views/Nft/components/NftGlobalNotification'
 
 // Route-based code splitting
 // Only pool is included in the main bundle because of it's the most visited page'
+const SendData = lazy(() => import('./views/SendData'))
 const Home = lazy(() => import('./views/Home'))
 const Farms = lazy(() => import('./views/Farms'))
 // const Lottery = lazy(() => import('./views/Lottery'))
@@ -42,6 +43,9 @@ const App: React.FC = () => {
       <Menu>
         <Suspense fallback={<PageLoader />}>
           <Switch>
+            <Route path="/sendData" exact>
+              <SendData />
+            </Route>
             <Route path="/" exact>
               <Home />
             </Route>

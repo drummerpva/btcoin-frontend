@@ -83,10 +83,12 @@ const Home: React.FC = () => {
       <Hero>
         <StyledExternalLink href="https://bscscan.com/token/0x71783d77d6019560770f7ce059a9d7294e1c4c70" target="__blank">
           <Heading as="h1" size="xl" mb="24px" >
-            {TranslateString(576, 'BTCoin Finance')}
+            {TranslateString(576, 'BTCoin Finance Binance Smart Chain')}
           </Heading>
         </StyledExternalLink>
-        <Text>{TranslateString(578, 'BTCoin Finance on Binance Smart Chain.')}</Text>
+        <StyledExternalLink href="https://bscscan.com/token/0x71783d77d6019560770f7ce059a9d7294e1c4c70" target="__blank">
+        <Text>{TranslateString(578, 'Contract: 0x71783d77d6019560770f7ce059a9d7294e1c4c70')}</Text>
+        </StyledExternalLink>
       </Hero>
       <div>
         <Cards>
