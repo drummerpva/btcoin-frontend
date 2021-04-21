@@ -1,6 +1,6 @@
 export default {
   cake: {
-    56: '0x71783d77d6019560770f7ce059a9d7294e1c4c70',
+    56: '0xe9cb0afe21cf468bd907507c857b8fca8ed001d4',
     666: 'This is BTCOIN token',
     97: '',
   },

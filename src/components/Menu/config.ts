@@ -12,7 +12,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.btcoin.finance/#/swap?outputCurrency=0x71783d77d6019560770f7ce059a9d7294e1c4c70&inputCurrency=BUSD',
+        href: 'https://exchange.btcoin.finance/#/swap?outputCurrency=0xe9cb0afe21cf468bd907507c857b8fca8ed001d4&inputCurrency=BUSD',
       },
       {
         label: 'Liquidity',
@@ -40,23 +40,23 @@ const config: MenuEntry[] = [
       },
       {
         label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/0x71783d77d6019560770f7ce059a9d7294e1c4c70',
+        href: 'https://pancakeswap.info/token/0xe9cb0afe21cf468bd907507c857b8fca8ed001d4',
       },
       {
         label: 'Binance Smart Chain Token',
-        href: 'https://bscscan.com/token/0x71783d77d6019560770f7ce059a9d7294e1c4c70',
+        href: 'https://bscscan.com/token/0xe9cb0afe21cf468bd907507c857b8fca8ed001d4',
       },
       {
         label: 'Binance Smart Chain Address',
-        href: 'https://bscscan.com/address/0x71783d77d6019560770f7ce059a9d7294e1c4c70',
+        href: 'https://bscscan.com/address/0xe9cb0afe21cf468bd907507c857b8fca8ed001d4',
       },
       {
         label: 'Binance Smart Chain Address',
-        href: 'https://bscscan.com/address/0xf328c01b7b895fe17e573dbaf739d9c25fcde210',
+        href: 'https://bscscan.com/address/0x6a08c7d3ff1b60cb0dc3502a1f34b16e7d0c4eb9',
       },
       {
         label: 'Exchange Swap BUSD x BTCOIN',
-        href: 'https://btcoin.finance/exchange/#/swap?outputCurrency=0x71783d77d6019560770f7ce059a9d7294e1c4c70&inputCurrency=BUSD',
+        href: 'https://btcoin.finance/exchange/#/swap?outputCurrency=0xe9cb0afe21cf468bd907507c857b8fca8ed001d4&inputCurrency=BUSD',
       },
     ],
   },
@@ -70,7 +70,7 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Astrotools.io',
-        href: 'https://app.astrotools.io/pancake-pair-explorer/0xf328C01B7b895FE17E573dbAF739d9c25fcdE210',
+        href: 'https://app.astrotools.io/pancake-pair-explorer/0x6a08c7d3ff1b60cb0dc3502a1f34b16e7d0c4eb9',
       },
     ],
   },
@@ -99,6 +99,10 @@ const config: MenuEntry[] = [
     label: 'Whitepaper',
     icon: 'TicketIcon',
     href: 'https://btcoin.finance/btcoin.pdf',
+  },{
+    label: 'BTcoin Graphic',
+    icon: 'InfoIcon',
+    href: 'https://dex.guru/token/0xe9cb0afe21cf468bd907507c857b8fca8ed001d4-bsc',
   },{
     label: 'Audit',
     icon: 'AuditIcon',

@@ -8,12 +8,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BTCOIN-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0xf328c01b7b895fe17e573dbaf739d9c25fcde210',
+      56: '0x6a08c7d3ff1b60cb0dc3502a1f34b16e7d0c4eb9',
     },
     tokenSymbol: 'BTCOIN',
     tokenAddresses: {
       97: '',
-      56: '0x71783d77d6019560770f7ce059a9d7294e1c4c70',
+      56: '0xe9cb0afe21cf468bd907507c857b8fca8ed001d4',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -24,7 +24,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BTCOIN-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0xf328c01b7b895fe17e573dbaf739d9c25fcde210',
+      56: '0x6a08c7d3ff1b60cb0dc3502a1f34b16e7d0c4eb9',
     },
     tokenSymbol: 'BTCOIN',
     tokenAddresses: {
@@ -217,12 +217,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BTCOIN',
     lpAddresses: {
       97: '',
-      56: '0xf328c01b7b895fe17e573dbaf739d9c25fcde210', // BTCOIN-BUSD LP
+      56: '0x6a08c7d3ff1b60cb0dc3502a1f34b16e7d0c4eb9', // BTCOIN-BUSD LP
     },
     tokenSymbol: 'BTCOIN',
     tokenAddresses: {
       97: '',
-      56: '0x71783d77d6019560770f7ce059a9d7294e1c4c70',
+      56: '0xe9cb0afe21cf468bd907507c857b8fca8ed001d4',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
