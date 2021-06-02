@@ -5,15 +5,15 @@ const farms: FarmConfig[] = [
   {
     pid: 10,
     risk: 3,
-    lpSymbol: 'BTCOIN-BUSD LP',
+    lpSymbol: 'BTCOINS-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0x6a08c7d3ff1b60cb0dc3502a1f34b16e7d0c4eb9',
+      56: '0x86db2bba644ba76207f9e55e6cb4d95f8348ae77',
     },
-    tokenSymbol: 'BTCOIN',
+    tokenSymbol: 'BTCOINS',
     tokenAddresses: {
       97: '',
-      56: '0xe9cb0afe21cf468bd907507c857b8fca8ed001d4',
+      56: '0x779c19621fb068c3bab5d574b8de5d803bc00b80',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -21,12 +21,12 @@ const farms: FarmConfig[] = [
   {
     pid: 11,
     risk: 3,
-    lpSymbol: 'BTCOIN-BNB LP',
+    lpSymbol: 'BTCOINS-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0x6a08c7d3ff1b60cb0dc3502a1f34b16e7d0c4eb9',
+      56: '0x86db2bba644ba76207f9e55e6cb4d95f8348ae77',
     },
-    tokenSymbol: 'BTCOIN',
+    tokenSymbol: 'BTCOINS',
     tokenAddresses: {
       97: '',
       56: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
@@ -214,15 +214,15 @@ const farms: FarmConfig[] = [
     pid: 12,
     risk: 5,
     isTokenOnly: true,
-    lpSymbol: 'BTCOIN',
+    lpSymbol: 'BTCOINS',
     lpAddresses: {
       97: '',
-      56: '0x6a08c7d3ff1b60cb0dc3502a1f34b16e7d0c4eb9', // BTCOIN-BUSD LP
+      56: '0x86db2bba644ba76207f9e55e6cb4d95f8348ae77', // BTCOINS-BUSD LP
     },
-    tokenSymbol: 'BTCOIN',
+    tokenSymbol: 'BTCOINS',
     tokenAddresses: {
       97: '',
-      56: '0xe9cb0afe21cf468bd907507c857b8fca8ed001d4',
+      56: '0x779c19621fb068c3bab5d574b8de5d803bc00b80',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,

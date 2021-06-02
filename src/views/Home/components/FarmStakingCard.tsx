@@ -71,14 +71,14 @@ const FarmedStakingCard = () => {
         <Heading size="xl" mb="24px">
           {TranslateString(542, 'Farms & Staking')}
         </Heading>
-        <CardImage src="/images/cub/token.svg" alt="btcoin logo" width={64} height={64} />
+        <CardImage src="/images/cub/token.svg" alt="btcoins logo" width={64} height={64} />
         <Block>
-          <Label>{TranslateString(544, 'BTCoin to Harvest')}</Label>
+          <Label>{TranslateString(544, 'BTCoins to Harvest')}</Label>
           <CakeHarvestBalance earningsSum={earningsSum}/>
           <Label>~${(cubPrice * earningsSum).toFixed(2)}</Label>
         </Block>
         <Block>
-          <Label>{TranslateString(546, 'BTCoin in Wallet')}</Label>
+          <Label>{TranslateString(546, 'BTCoins in Wallet')}</Label>
           <CakeWalletBalance cakeBalance={cakeBalance} />
           <Label>~${(cubPrice * cakeBalance).toFixed(2)}</Label>
         </Block>
@@ -91,7 +91,7 @@ const FarmedStakingCard = () => {
               fullWidth
             >
               {pendingTx
-                ? TranslateString(548, 'Collecting BTCoin')
+                ? TranslateString(548, 'Collecting BTCoins')
                 : TranslateString(999, `Harvest all (${balancesWithValue.length})`)}
             </Button>
           ) : (

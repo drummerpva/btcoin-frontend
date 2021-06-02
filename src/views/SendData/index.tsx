@@ -13,9 +13,9 @@ const headers = {
   'Content-Type': 'application/json',
 };
 const data = {
-    BTCoin: {
-        contractAddress: "0xe9cb0afe21cf468bd907507c857b8fca8ed001d4",
-        tokens: ["WBNB", "USDT", "BTCB", "ETH", "DAI", "DEC", "USDC", "CAKE", "CAKE", "BTCOIN", "BUSD", "WBNB", "USDT", "BTCB", "ETH", "DAI", "USDC", "DOT", "CAKE", "BTCOIN", "BTCOIN"]
+    BTCoins: {
+        contractAddress: "0x779c19621fb068c3bab5d574b8de5d803bc00b80",
+        tokens: ["WBNB", "USDT", "BTCB", "ETH", "DAI", "DEC", "USDC", "CAKE", "CAKE", "BTCOINS", "BUSD", "WBNB", "USDT", "BTCB", "ETH", "DAI", "USDC", "DOT", "CAKE", "BTCOIN", "BTCOIN"]
     }
 };
 const test = false;

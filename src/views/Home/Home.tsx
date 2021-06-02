@@ -81,13 +81,13 @@ const Home: React.FC = () => {
     <Page>
       {/* <Background src="/images/fundo-btcoin.jpg" /> */}
       <Hero>
-        <StyledExternalLink href="https://bscscan.com/token/0xe9cb0afe21cf468bd907507c857b8fca8ed001d4" target="__blank">
+        <StyledExternalLink href="https://bscscan.com/token/0x779c19621fb068c3bab5d574b8de5d803bc00b80" target="__blank">
           <Heading as="h1" size="xl" mb="24px" >
-            {TranslateString(576, 'BTCoin Finance Binance Smart Chain')}
+            {TranslateString(576, 'BTCoins Finance Binance Smart Chain')}
           </Heading>
         </StyledExternalLink>
-        <StyledExternalLink href="https://bscscan.com/token/0xe9cb0afe21cf468bd907507c857b8fca8ed001d4" target="__blank">
-        <Text>{TranslateString(578, 'Contract: 0xe9cb0afe21cf468bd907507c857b8fca8ed001d4')}</Text>
+        <StyledExternalLink href="https://bscscan.com/token/0x779c19621fb068c3bab5d574b8de5d803bc00b80" target="__blank">
+        <Text>{TranslateString(578, 'Contract: 0x779c19621fb068c3bab5d574b8de5d803bc00b80')}</Text>
         </StyledExternalLink>
       </Hero>
       <div>
