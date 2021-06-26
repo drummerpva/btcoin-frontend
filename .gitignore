@@ -2,7 +2,7 @@
 
 # dependencies
 node_modules/*
-!node_modules/@pancakeswap-libs/
+!node_modules/@pancakeswap-libs/*
 /.pnp
 .pnp.js
 build
